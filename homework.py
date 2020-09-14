@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 logging.basicConfig(filename="sample.log", level=logging.INFO)
 log = logging.getLogger("ex")
 #logging.debug("This is a debug message")
-logging.info("Informational message")
-logging.error("An error has happened!")
+#logging.info("Informational message")
+#logging.error("An error has happened!")
 
 load_dotenv()
 
